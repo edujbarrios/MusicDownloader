@@ -32,6 +32,12 @@ func main() {
 	title = strings.Replace(title, "(Official Video)", "", -1)
 	title = strings.Replace(title, "(Official Audio)", "", -1)
 	title = strings.Replace(title, "(Videoclip Oficial)", "", -1)
+	title = strings.Replace(title, "(VIDEOCLIP OFICIAL)", "", -1)
+	title = strings.Replace(title, "(OFFICIAL AUDIO)", "", -1)
+	title = strings.Replace(title, "(OFFICIAL VIDEO)", "", -1)
+	
+	
+	
 
 	fileName := title + "." + audioFormat.Extension
 	if format == 2 {
